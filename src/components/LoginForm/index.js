@@ -22,6 +22,7 @@ class LoginForm extends Component {
       body: JSON.stringify(details),
     }
     const response = await fetch(url, options)
+    const data=await response.json()
 
     console.log(response)
 
