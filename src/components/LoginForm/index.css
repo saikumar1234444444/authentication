@@ -1,0 +1,34 @@
+.form-container {
+  background-color: white;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.picture {
+  height: 300px;
+  width: 500px;
+}
+.form-text-container {
+  background-color: white;
+  height: 35vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text {
+  margin-top: 30px;
+  font-size: 16px;
+}
+.input {
+  background-color: #e2e8f0;
+  border-style: none;
+  color: black;
+  height: 22px;
+  margin-bottom: 20px;
+}
